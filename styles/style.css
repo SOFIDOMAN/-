@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffadf0;
+}
+
+header {
+    background-color: #f092df;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav {
+    display: flex;
+}
+    header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+header nav a:hover {
+text-decoration: underline;
+}
+nav{
+    background-color: #e67ed3;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social {
+    background-color: #e67ed3;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+.social p{
+    margin: 30px;
+}
+main {
+    width: 1000px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1)
+}
+footer {
+    background-color: #f092df;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+}
+
+li {
+padding: 15px;
+border-bottom: 1px solid #ddd;
+ font-size: 18px;
+color: #333;
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+li:last-child {
+    border-bottom: none;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+li:active {
+    background-color: #ddd;
+}
+
+li a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+li a:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+.masaj {
+    
+}
+image-container {
+  display: flex;
+}
+
+.image-container img {
+  margin-right: 10px; /* Отступ между изображениями */
+}
+.image-container{
+
+}
+.masaj{
+    float: right;
+    margin: 40px;
+}
+
+
